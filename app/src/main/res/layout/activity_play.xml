@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/green_table"
+    android:weightSum="100"
+    tools:context=".PlayActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_gravity="right"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:text="xx"
+            android:id="@+id/tvScoreOponnent"
+            android:background="#fff"/>
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="40"
+        android:orientation="horizontal"
+        android:id="@+id/LL_Opponent">
+
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_gravity="right"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:text="xx"
+            android:id="@+id/tvScore"
+            android:background="#fff"/>
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="40"
+        android:orientation="horizontal"
+        android:id="@+id/LL_Player">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnPush"
+            android:layout_width="100dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/circled_button"
+            android:text="hit"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvMoneyOnGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="10dp"
+            android:text="xxxx"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/btnDouble"
+            android:layout_width="100dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="50dp"
+
+            android:background="@drawable/circled_button"
+            android:text="double"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="6"
+        android:id="@+id/LL_stop"
+        >
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circled_button"
+            android:text="stop"
+            android:textSize="20sp"
+            android:id="@+id/btnStop"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+android:layout_weight="10"
+        >
+
+        <Button
+            android:layout_width="135dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:text="Play  again"
+            android:textSize="20sp"
+            android:background="@drawable/shaped_button"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:id="@+id/btnPlayAgain"/>
+    </LinearLayout>
+
+</LinearLayout>

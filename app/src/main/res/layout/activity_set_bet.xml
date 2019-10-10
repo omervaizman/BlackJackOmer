@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SetBetActivity"
+    android:orientation="vertical"
+    android:background="@drawable/green_table"
+    >
+
+
+
+        <ImageView
+            android:id="@+id/ivChips"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/tvBet"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textColor="#000"
+        android:textSize="40sp"
+        android:textStyle="italic"
+        android:text=""/>
+
+        <Button
+            android:id="@+id/btnPlay"
+            android:layout_width="200dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/circled_button"
+            android:fontFamily="serif-monospace"
+            android:text="play"
+            android:textColor="#000"
+            android:textSize="27sp"
+            android:textStyle="bold" />
+    <Button
+        android:id="@+id/btnRaise"
+        android:layout_width="300dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/shaped_button"
+        android:fontFamily="serif-monospace"
+        android:text="raise"
+        android:textColor="#000"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>

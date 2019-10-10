@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_main"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/welcome"
+        />
+    <ImageView
+        android:layout_width="320dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:background="@drawable/logobj"
+        />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/yourmoney2"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#FFD700"
+        android:layout_gravity="center"
+        android:text="xxxxxx$"
+        android:id="@+id/tvMoney"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textSize="30sp"
+        android:text="start"
+        android:layout_gravity="center"
+        android:background="@drawable/shaped_button"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnStart"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textSize="25sp"
+        android:text="start new game"
+        android:layout_gravity="center"
+        android:background="@drawable/shaped_button"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnNewGame"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textSize="25sp"
+        android:text="Records"
+        android:layout_gravity="center"
+        android:background="@drawable/shaped_button"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnRecords"/>
+
+</LinearLayout>
